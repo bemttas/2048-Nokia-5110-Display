@@ -1,19 +1,30 @@
-# Features
+# 2048 - Jogo para Nokia 5110 Display
 
- - Super lightweight
- - Buffer that can be easly modified and send to LCD at once
- - Font scale from 1 to 6
- - Cursor, every char will be placed next to previous automatically
- - Power on/off LCD
- - Font in external file, saved in Flash (PROGMEM)
+Este é o repositório do jogo 2048, desenvolvido em linguagem C para rodar em um Nokia 5110 Display. O jogo é uma versão adaptada do popular jogo de quebra-cabeça "2048", projetado especificamente para funcionar com o display mencionado.
 
-# Usage
+Este projeto foi desenvolvido como parte de um trabalho realizado no curso de Ciência da Computação da PUCRS
 
- 1. Import files to your IDE
- 2. Change or connect LCD to pins listed in LCD/lcd.h file
- 3. Compile and run app
 
-Explanation of all functions is in lcd.h header file.
-<br>
-<img src="http://s019.radikal.ru/i607/1508/66/5a6b22c6d90a.png" />
-<img src="http://i081.radikal.ru/1508/68/d14ec7d019a7.png" />
+## Requisitos
+
+Antes de executar o jogo, certifique-se de que você tenha os seguintes requisitos:
+
+- [SimullIDe 0.4.15] instalado em seu sistema.
+- O arquivo `final.semu` aberto no SimullIDe.
+- Um processador conectado ao display 5110.
+- O arquivo `code.hex` carregado no processador.
+
+## Executando o Jogo
+
+Siga as etapas abaixo para executar o jogo:
+
+1. Certifique-se de que todos os requisitos mencionados acima sejam atendidos.
+2. Clone este repositório em sua máquina local:
+3. Acesse o diretório do projeto: cd 2048-Nokia-5110-Display
+4. Abra o SimullIDe 0.4.15 em seu sistema.
+5. Abra o arquivo `display.semu` no SimullIDe.
+6. Conecte o processador ao display 5110.
+7. Carregue o arquivo `code.hex` no processador.
+8. Execute o SimullIDe para iniciar a simulação.
+9. O jogo 2048 será exibido no Nokia 5110 Display.
+10. Use as teclas ou controles correspondentes para jogar o jogo.
