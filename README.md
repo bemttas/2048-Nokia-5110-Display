@@ -24,7 +24,7 @@ Siga as etapas abaixo para executar o jogo:
 2. Clone este repositório em sua máquina local:
 3. Acesse o diretório do projeto: cd 2048-Nokia-5110-Display
 4. Abra o SimullIDe 0.4.15 em seu sistema.
-5. Abra o arquivo `display.semu` no SimullIDe.
+5. Abra o arquivo `final.semu` no SimullIDe.
 6. Conecte o processador ao display 5110.
 7. Carregue o arquivo `code.hex` no processador.
 8. Execute o SimullIDe para iniciar a simulação.
