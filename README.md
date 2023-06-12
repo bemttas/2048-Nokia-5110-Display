@@ -2,6 +2,9 @@
 
 Este é o repositório do jogo 2048, desenvolvido em linguagem C para rodar em um Nokia 5110 Display. O jogo é uma versão adaptada do popular jogo de quebra-cabeça "2048", projetado especificamente para funcionar com o display mencionado.
 
+Este projeto foi desenvolvido como parte de um trabalho realizado no curso de Ciência da Computação da PUCRS
+
+
 ## Requisitos
 
 Antes de executar o jogo, certifique-se de que você tenha os seguintes requisitos:
